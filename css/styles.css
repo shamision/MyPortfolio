@@ -1,0 +1,151 @@
+
+body{
+    background-color: #ECF0F3;
+    margin: 0;
+    font-family: Arial;
+}
+
+.page-header{
+    position: fixed;
+    background: #ECF0F3;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+}
+
+nav img{
+    border-radius: 100%;
+    border: #726f6f solid;
+    margin: 10px 0 0 10px;
+    
+}
+
+nav ul{
+    display: flex;
+    padding-left: 50px;
+    
+    list-style: none;
+}
+
+nav ul li{
+    padding-left: 150px;
+    color: #4E4949;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.page-intro{
+    padding-top: 100px;
+    display: flex;
+}
+
+#intro-p{
+    font-size: 15px;
+}
+
+.introduction{
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.introduction p{
+    color: #4E4949;
+    font-size: 12px;
+}
+
+.introduction h1{
+    font-size: 50px;
+}
+
+.introduction h1 span{
+    color: #F8013C;
+}
+
+.first-image{
+    width: 50%;
+    text-align: center;
+}
+
+.first-image img{
+    border-radius: 10%;
+    box-shadow: #4E4949 0px 2px 10px;
+}
+
+#p1{
+    padding-top: 50px;
+}
+
+.social-media{
+    display: flex;  
+}
+
+
+
+.media{
+    height: 50px;
+    width: 50px;
+    background-color:#ECF0F3;
+    border-radius: 20%;
+    box-shadow: #4E4949 0px 2px 10px;
+    margin-right: 20px;
+}
+
+.media img{
+    padding: 10px 0 0 10px;
+
+}
+
+#feature{
+    margin-top: 200px;
+    color: #F8013C;
+    font-size: 12px;
+    text-align: center;
+}
+
+#feature-title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.service{
+    /* width: 100%; */
+    padding: 50px;
+  }
+  
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card{
+    height: 280px;
+    width: 300px;
+    padding: 20px 35px;
+    background: #ECF0F3;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: #4E4949 0px 2px 10px;
+  }
+
+  .card img{
+    margin-top: 40px;
+  }
+
+  .card h3{
+    margin-top: 40px;
+  }
+  
+  .pra p{
+    color: #4E4949;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
