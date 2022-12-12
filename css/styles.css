@@ -59,6 +59,7 @@ nav ul li{
 
 .introduction h1{
     font-size: 50px;
+    color: #2E2A2A;
 }
 
 .introduction h1 span{
@@ -76,7 +77,7 @@ nav ul li{
 }
 
 #p1{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .social-media{
@@ -109,6 +110,7 @@ nav ul li{
 #feature-title{
     text-align: center;
     font-size: 50px;
+    color: #2E2A2A;
 }
 
 .service{
@@ -141,6 +143,7 @@ nav ul li{
 
   .card h3{
     margin-top: 40px;
+    color: #2E2A2A;
   }
   
   .pra p{
@@ -148,4 +151,35 @@ nav ul li{
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+  }
+
+  .contact{
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .profile{
+    margin: 10px 50px 100px 100px;
+    height: 550px;
+    width: 320px;
+    box-shadow: #4E4949 0px 2px 10px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .profile img{
+    border-radius: 10px;
+  }
+
+  .profile h3{
+    margin-top: 20px;
+    color: #2E2A2A;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .profile p{
+    padding-top: 0px;
+    color: #4E4949;
+    font-size: 15px;
   }
