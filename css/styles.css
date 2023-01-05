@@ -159,7 +159,7 @@ nav ul li{
   }
 
   .profile{
-    margin: 10px 50px 100px 100px;
+    margin: 10px 0px 100px 100px;
     height: 550px;
     width: 320px;
     box-shadow: #4E4949 0px 2px 10px;
@@ -182,4 +182,136 @@ nav ul li{
     padding-top: 0px;
     color: #4E4949;
     font-size: 15px;
+  }
+
+  .contact-form{
+    height: 610px;
+    width: 750px;
+    border-radius: 10px;
+    box-shadow: #4E4949 0px 2px 10px;
+    margin: 10px 50px 100px ;
+  }
+   
+  .contact-form form{
+    padding: 30px 0 0 30px;
+  }
+
+  .contact-form form label{
+    font-size: 11px;
+    color: #4E4949;
+    padding-bottom: 30px;
+  }
+  #label{
+    margin-left: 290px;
+  }
+
+  #name{
+    height: 38px;
+    width: 325px;
+    margin: 20px 20px 20px 0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  #email{
+    margin: 20px 0 20px 0;
+    height: 42px;
+    width: 96%;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #subject{
+    margin: 20px 0 20px 0;
+    height: 42px;
+    width: 96%;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #message{
+    margin: 20px 0 20px 0;
+    height: 140px;
+    width: 96%;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .send-message{
+    margin: 0 0 20px 0;
+    height: 42px;
+    width: 96%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: #4E4949 0px 2px 10px;
+    font-size: 11px;
+    color: #4E4949;
+  }
+
+  .input:focus {
+    outline: 0;
+  }
+
+  #form.success .input{
+    border: 1px solid #726f6f;
+    border-color: aqua;
+  }
+
+  #form.error .input{
+    border-color: #F8013C;
+  }
+
+  #form .error{
+    color: #F8013C;
+    font-size: 9px;
+    height: 13px;
+  }
+
+  .serv{
+    /* width: 100%; */
+    padding: 50px;
+  }
+  
+  .bo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ca{
+    height: 300px;
+    width: 300px;
+    
+    background: #ECF0F3;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 20px;
+    box-shadow: #4E4949 0px 2px 10px;
+  }
+
+  .ca img{
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .ca h3{
+    margin-top: 20px;
+    color: #2E2A2A;
+    margin-bottom: 30px;
+  }
+  
+
+  .button{
+    background-color: #ECF0F3;
+    color: #F8013C;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    font-size: 12px;
+    border-radius: 30px;
+    box-shadow: #4E4949 0px 2px 10px;
+    margin-left: 110px;
   }
